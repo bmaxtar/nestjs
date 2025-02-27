@@ -11,6 +11,8 @@ pnpm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 lerna-debug.log*
+request.http*
+
 
 # OS
 .DS_Store
@@ -41,7 +43,6 @@ lerna-debug.log*
 .env.test.local
 .env.production.local
 .env.local
-.request.http
 
 # temp directory
 .temp

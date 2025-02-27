@@ -6,3 +6,13 @@ GET http://localhost:3000/messages
 
 ### Req single message with id
 GET http://localhost:3000/messages/1
+
+### Req create user 
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+ "userId": "obd123",
+ "userName": "Maxtar Ov",
+ "userPassword":"123456"
+}
